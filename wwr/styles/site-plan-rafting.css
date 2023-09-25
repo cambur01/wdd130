@@ -1,18 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Skranji&display=swap');
 
 :root {
-    --primary-color: #204E4A;
+    --primary-color: #134266;
     --secondary-color: #2A1A1F;
-    --accent1-color: #9DC7C8;
+    --accent1-color: #78c5d7;
     --accent2-color: #B49594;
 
     --heading-font: 'Skranji', serif;
     --paragraph-font: 'Poppins', serif;
 
-    --nav-background-color: #9DC7C8;
+    --nav-background-color: #78c5d7;
     --nav-link-color: #2A1A1F;
     --nav-hover-link-color: #B49594;
-    --nav-hover-background-color: #204E4A;
+    --nav-hover-background-color: #134266;
 }
 
 body {
