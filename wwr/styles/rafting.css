@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Skranji&display=swap');
+
+:root {
+    --primary-color: #134266;
+    --secondary-color: #2A1A1F;
+    --accent1-color: #78c5d7;
+    --accent2-color: #B49594;
+
+    --heading-font: 'Skranji', serif;
+    --paragraph-font: 'Poppins', serif;
+
+    --nav-background-color: #78c5d7;
+    --nav-link-color: #2A1A1F;
+    --nav-hover-link-color: #B49594;
+    --nav-hover-background-color: #134266;
+}
+
+* {
+    max-width: 960px;
+}
+
+body {
+    font-family: var(--paragraph-font);
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color)
+}
+
+.hero {
+    position: relative;
+
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero h1 {
+    position: absolute;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    top: 15px;
+    text-align: center;
+    color: #78c5d7;
+    font-size: 50px;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.hero article {
+    padding: 15px;
+    position: absolute;
+    bottom: 150px;
+    left: 100px;
+    width: 75%;
+    color: #78c5d7;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.hero article p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.hero article img {
+    width: 150px;
+    height: auto;
+    float: right;
+}
+
+.sociallinks a {
+    text-decoration: none;
+}
