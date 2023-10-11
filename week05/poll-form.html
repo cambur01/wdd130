@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 130 | HTML Form - User Poll</title>
+    <meta name="description" content="Demonstation of HTML forms for Week 5 of the WWD 130 course.">
+    <meta name="author" content="Cameron Burton">
+</head>
+<body>
+    <header>
+        <h1>WDD 130 | Cameron Burton | HTML Form - User Poll</h1>
+    </header>
+    <main>
+        <form>
+            <fieldset>
+                <legend>Contact Information</legend>
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" name="fullname">
+                <label for="useremail">Email:</label>
+                <input type="text" id="useremail" name="useremail">
+            </fieldset>
+            <fieldset>
+                <legend>Questions</legend>
+                <label for="browser">What is your favorite browser?</label>
+                <select id="browser" name="browser">
+                    <option value="chrome">Chrome</option>
+                    <option value="safari">Safari</option>
+                    <option value="Edge">Edge</option>
+                </select>
+                <label for="pet">Do you have a household pet?</label>
+                <input type="checkbox" id="pet" name="pet">
+                <label for="placeslived">List the places you have lived:</label>
+                <textarea id="placeslived" name="placeslived" rows="4" placeholder="e.g. Sacramento California, Dallas Texas, Orlando Florida..."></textarea>
+            </fieldset>
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+    <footer>
+        ©2023 | HTML Form - User Poll Activity | Cameron Burton
+    </footer>
+</body>
+</html>
