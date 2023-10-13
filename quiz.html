@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 130 | HTML Form - User Poll</title>
+    <meta name="description" content="A simple quiz form for Week 5 of the WWD 130 course.">
+    <meta name="author" content="Cameron Burton">
+    <link rel="stylesheet" href="styles/quiz.css">
+</head>
+<body>
+    <header>
+        <h1>Basic HTML and CSS Quiz | Cameron Burton</h1>
+    </header>
+    <main>
+        <form>
+            <div class="form-item">
+                <label for="q1"><span>1. </span>What does the acronym HTML stand for?</label>
+                <input type="text" id="q1" name="q1">
+            </div>
+            <div class="form-item">
+                <label for="q2"><span>2. </span>Write the content of a typical "head" element including meta elements, title, description, and author:</label>
+                <textarea id="q2" name="q2" rows="5"></textarea>
+            </div>
+            <div class="form-item">
+                <label for="q3"><span>3. </span>Which of the following is a valid CSS class selector?</label>
+                <select id="q3" name="q3">
+                    <option value="" selected disabled>Choose One ...</option>
+                    <option value="incorrect">_class { }</option>
+                    <option value="correct">.class { }</option>
+                    <option value="incorrect">*class { }</option>
+                </select>
+            </div>
+            <div class="form-item">
+                <label for="q4"><span>4. </span>What is the bottom padding given this declaration?</label>
+                <img src="images/padding.png" alt="example padding declaration">
+                <input type="number" id="q4" name="q4">
+            </div>
+            <button type="submit">Submit Quiz</button>
+        </form>
+    </main>
+    <footer>
+        ©2023 | Basic HTML and CSS Quiz | Cameron Burton
+    </footer>
+</body>
+</html>

@@ -1,0 +1,83 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    font-family: Roboto, Tahoma, sans-serif;
+    width: 650px;
+    margin: 0 auto;
+}
+
+header, footer {
+    font-family: Roboto Slab, Georgia, serif;
+    font-size: smaller; padding: 1rem;
+    width: 650px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+h1 {
+    color: navy;
+}
+
+form {
+    display: grid;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    background-color: whitesmoke;
+    width: 500px;
+    margin: 0 auto;
+}
+
+span {
+    font-family: Roboto Slab, Georgia, serif;
+    color: navy;
+    font-size: larger;
+}
+
+label {
+    padding-right: 1rem;
+    padding-bottom: .5rem;
+}
+
+textarea, input, select {
+    font-family: Roboto, Tahoma, sans-serif;
+    padding: .3rem;
+    font-size: 1.05em;
+}
+
+img {
+    width: 300px;
+    margin: 0px auto .5rem;
+}
+
+button {
+    margin: 1rem auto;
+    padding: 0.5rem 1rem;
+    background-color: navy;
+    color: whitesmoke;
+    border: none;
+    border-radius: 10px;
+    font-size: large;
+}
+
+button:hover {
+    background-color: darkcyan;
+}
+
+footer {
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 1rem;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+    margin: .5rem 0;
+}
