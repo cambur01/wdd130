@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Dry Oar Rafting Co.</title>
+    <meta name="description" content="Dry Oar Rafting Co.'s 'Contact Us' webpage designed by Cameron Burton for WWD 130.">
+    <meta name="author" content="Cameron Burton">
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+<body>
+     <header>
+        <img src="images/logo.png" alt="Dry Oar Site Logo">
+        <nav class="navigation">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <div class="contact-form">
+            <form>
+                <fieldset>
+                    <legend class="send-us">Send us a Message</legend>
+                    <div class="form-item column2">
+                        <label for="fullname">Full Name:</label>
+                        <input type="text" id="fullname" name="fullname" placeholder="Type full name here">
+                    </div>
+                    <div class="form-item column2">
+                        <label for="useremail">Email:</label>
+                        <input type="text" id="useremail" name="useremail" placeholder="Type email here">
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>What is the purpose of your message?</legend>
+                    <div class="form-item column1 radio">
+                        <input type="radio" id="inquiry" name="purpose" value="inquiry">
+                        <label for="inquiry">General Inquiry</label>
+
+                        <input type="radio" id="reservation" name="purpose" value="reservation">
+                        <label for="reservation">Reservation Question</label>
+                        
+                        <input type="radio" id="suggestion" name="purpose" value="suggestion">
+                        <label for="suggestion">Website Suggestion</label>
+                    </div>
+                    <div class="form-item">
+                        <textarea id="message" name="message" rows="6" placeholder="Type your message here"></textarea>
+                    </div>
+                    <div class="form-item checkbox">
+                        <label for="newsletter"><input type="checkbox" id="newsletter" name="newsletter">Please subscribe me to the monthly newsletter</label>
+                    </div>
+                </fieldset>
+                <button type="submit">SUBMIT MESSAGE</button>
+            </form>
+            <div class="contact-info">
+                <h1>Contact Information</h1>
+                <div>
+                    <p class="contact-widget"><img src="images/address.svg" alt="address">123 Elm St, Cincinnati OH</p>
+                    <p class="contact-widget"><img src="images/email.svg" alt="email">contact-us@company.com</p>
+                    <p class="contact-widget"><img src="images/phone.svg" alt="phone">+1 (513) 123-4567</p>
+                </div>
+                <div class="map">  
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d42092.27779908028!2d-84.5435964381676!3d39.08908868097209!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1697247464012!5m2!1sen!2sus" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>©2023 | Dry Oar Rafting Co. | Cameron Burton</p>
+        <a href="https://app.moqups.com/7QaEN8xflhjt9lgJ2lwH3UvCH3CpB4L8/view/page/a29d6f3c2" target="_blank">Contact Us Wireframe</a>
+        <nav class="sociallinks">
+            <a href="https://facebook.com" target="_blank">
+                <img src="images/facebook.svg" alt="Facebook" height="48">
+            </a>
+            <a href="https://twitter.com" target="_blank">
+                <img src="images/twitter.svg" alt="Twitter" height="45">
+            </a>
+            <a href="https://instagram.com" target="_blank">
+                <img src="images/instagram.svg" alt="Instagram" height="48">
+            </a>
+        </nav>
+    </footer>
+</body>
+</html>
