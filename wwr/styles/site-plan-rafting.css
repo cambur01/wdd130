@@ -2,17 +2,17 @@
 
 :root {
     --primary-color: #134266;
-    --secondary-color: #2A1A1F;
+    --secondary-color: #ffe4c4;
     --accent1-color: #78c5d7;
-    --accent2-color: #B49594;
+    --accent2-color: #faebd7;
 
     --heading-font: 'Skranji', serif;
     --paragraph-font: 'Poppins', serif;
 
-    --nav-background-color: #9DC7C8;
-    --nav-link-color: #2A1A1F;
-    --nav-hover-link-color: #B49594;
-    --nav-hover-background-color: #134266;
+    --nav-background-color: #faebd7;
+    --nav-link-color: #134266;
+    --nav-hover-link-color: #78c5d7;
+    --nav-hover-background-color: #faebd7;
 }
 
 body {
